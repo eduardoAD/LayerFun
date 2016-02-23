@@ -13,6 +13,8 @@
 		E4439B221C6B9BA4003892D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4439B201C6B9BA4003892D3 /* Main.storyboard */; };
 		E4439B241C6B9BA4003892D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4439B231C6B9BA4003892D3 /* Assets.xcassets */; };
 		E4439B271C6B9BA4003892D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4439B251C6B9BA4003892D3 /* LaunchScreen.storyboard */; };
+		E4439B2F1C6B9E15003892D3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4439B2E1C6B9E15003892D3 /* QuartzCore.framework */; };
+		E4439B311C6BA129003892D3 /* BattleMapSplashScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4439B301C6BA129003892D3 /* BattleMapSplashScreen.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E4439B231C6B9BA4003892D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4439B261C6B9BA4003892D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4439B281C6B9BA4003892D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4439B2E1C6B9E15003892D3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E4439B301C6BA129003892D3 /* BattleMapSplashScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BattleMapSplashScreen.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4439B2F1C6B9E15003892D3 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,7 @@
 		E4439B0B1C6B9BA4003892D3 = {
 			isa = PBXGroup;
 			children = (
+				E4439B2E1C6B9E15003892D3 /* QuartzCore.framework */,
 				E4439B161C6B9BA4003892D3 /* LayerFun */,
 				E4439B151C6B9BA4003892D3 /* Products */,
 			);
@@ -63,6 +69,7 @@
 				E4439B1D1C6B9BA4003892D3 /* ViewController.h */,
 				E4439B1E1C6B9BA4003892D3 /* ViewController.m */,
 				E4439B201C6B9BA4003892D3 /* Main.storyboard */,
+				E4439B301C6BA129003892D3 /* BattleMapSplashScreen.jpg */,
 				E4439B231C6B9BA4003892D3 /* Assets.xcassets */,
 				E4439B251C6B9BA4003892D3 /* LaunchScreen.storyboard */,
 				E4439B281C6B9BA4003892D3 /* Info.plist */,
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4439B271C6B9BA4003892D3 /* LaunchScreen.storyboard in Resources */,
+				E4439B311C6BA129003892D3 /* BattleMapSplashScreen.jpg in Resources */,
 				E4439B241C6B9BA4003892D3 /* Assets.xcassets in Resources */,
 				E4439B221C6B9BA4003892D3 /* Main.storyboard in Resources */,
 			);
